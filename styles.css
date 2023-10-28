@@ -5,16 +5,23 @@
 body {
     font-family: 'Outfit';
     font-size: 15px;
-    background-color: rgb(195, 216, 235);
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main {
+    height: 100vh;
+    min-width: 375px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
+    margin: 0 auto;
     background-color: white;
     width: 320px;
     height: 500px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -33,9 +40,13 @@ body {
     padding: 5px 8px;
 }
 
+.description > h2 {
+    color: hsl(218, 44%, 22%);
+}
+
 .description > p {
-    opacity: 0.5;
     line-height: 1.15;
+    color: hsl(220, 15%, 55%);
 }
 
 #qr-title {
